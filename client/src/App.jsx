@@ -10,7 +10,7 @@ import Pricing from './pages/Pricing'
 import PaymentSuccess from './pages/PaymentSuccess'
 import PaymentFailed from './pages/PaymentFailed'
 
-export const serverUrl = "https://ai-exam-notes-generator-q11o.onrender.com"
+export const serverUrl = "https://ai-exam-notes-generator-backend.onrender.com"
 
 function App() {
   const dispatch = useDispatch()
