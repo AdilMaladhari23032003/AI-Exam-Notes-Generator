@@ -17,7 +17,7 @@ const app = express()
 
 app.use(cors(
     {
-        origin: ["http://localhost:5173", "https://ai-exam-notes-generator-1-bsne.onrender.com"],
+        origin: ["https://notesgenerator-ai.onrender.com", "http://localhost:5173"],
         credentials: true,
         methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"]
     }
