@@ -45,18 +45,18 @@ function Pricing() {
             );
 
             // ✅ SUCCESS PAGE REDIRECT
-            window.location.href = "/payment-success";
+            navigate("/payment-success");
 
           } catch (err) {
             console.log(err);
-            window.location.href = "/payment-failed";
+            navigate("/payment-failed");
           }
         },
 
         // ❌ PAYMENT FAILED / CANCEL
         modal: {
           ondismiss: function () {
-            window.location.href = "/payment-failed";
+            navigate("/payment-failed");
           },
         },
 
